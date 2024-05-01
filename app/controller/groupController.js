@@ -6,7 +6,7 @@ const getAllGroups = async (req, res) => {
         if (err) {
             console.error("Error executing query:", err);
         } else {
-            res.json({ groups: result.recordset });
+            res.status(200).json({ groups: result.recordset });
         }
     });
 }
@@ -20,7 +20,7 @@ const makeGroup = async (req, res) => {
         if (err) {
             console.error("Error executing query:", err);
         } else {
-            res.json({ message: "Group created successfully" });
+            res.status(200).json({ message: "Group created successfully" });
         }
     });
 }
@@ -33,7 +33,7 @@ const addEmployeeToGroup = async (req, res) => {
         if (err) {
             console.error("Error executing query:", err);
         } else {
-            res.json({ message: "Employee added to group successfully" });
+            res.status(200).json({ message: "Employee added to group successfully" });
         }
     });
 }

@@ -20,9 +20,9 @@ const getEmployeeByEmail = async (req, res) => {
                             console.error("Error executing supervisor query:", err);
                         } else {
                             if (supervisorResult.recordset.length > 0) {
-                                res.json({ emp_id: empresult.recordset[0].Empl_id, Supervisor_id: supervisorResult.recordset[0].Supervisor_id })
+                                res.status(200).json({ emp_id: empresult.recordset[0].Empl_id, Supervisor_id: supervisorResult.recordset[0].Supervisor_id })
                             } else {
-                                res.json({ emp_id: empresult.recordset[0].Empl_id });
+                                res.status(200).json({ emp_id: empresult.recordset[0].Empl_id });
                             }
                             
                         }
@@ -40,7 +40,7 @@ const makeEmployeeSupervisor = async (req, res) => {
         if (err) {
             console.error("Error executing query:", err);
         } else {
-            res.send('Supervisor added!'); 
+            res.status(200).send('Supervisor added!'); 
         }
     })
 }
@@ -53,7 +53,7 @@ const makeEmployee = async (req, res) => {
         if (err) {
             console.error("Error executing query:", err);
         } else {
-            res.send('Employee added!'); 
+            res.status(200).send('Employee added!'); 
         }
     });
 }
