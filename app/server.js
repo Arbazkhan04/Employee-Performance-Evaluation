@@ -10,8 +10,8 @@ app.get("/", (req, res) => {
 });
 
 
-const employeeRouter = require('./routes/empRoutes.js')
-app.use('/employee', employeeRouter)
+app.use('/employee', require('./routes/empRoutes.js'))
+app.use('/group', require('./routes/groupRoutes.js'))
 
 const port = process.env.PORT || 3000
 
