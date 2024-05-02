@@ -39,6 +39,7 @@ const makeEmployeeSupervisor = async (req, res) => {
     new sql.Request().query(query, (err, result) => { 
         if (err) {
             console.error("Error executing query:", err);
+            res.status(500).send('Error executing query');
         } else {
             res.status(200).send('Supervisor added!'); 
         }
@@ -52,6 +53,7 @@ const makeEmployee = async (req, res) => {
     new sql.Request().query(query, (err, result) => {
         if (err) {
             console.error("Error executing query:", err);
+            res.status(500).send('Error executing query');
         } else {
             res.status(200).send('Employee added!'); 
         }
