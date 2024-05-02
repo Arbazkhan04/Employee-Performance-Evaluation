@@ -1,0 +1,75 @@
+{
+  "name": "openai-gpt3",
+  "author": "Nikhil Mohite",
+  "repository": {
+    "type": "module",
+    "url": "https://github.com/nkilm/openai-gpt3"
+  },
+  "description": "Clone of GPT3 Website using Reactjs",
+  "version": "0.1.0",
+  "keywords": [
+    "reactjs",
+    "modern ui/ux",
+    "gpt3",
+    "openai"
+  ],
+  "private": false,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "assert": "^2.1.0",
+    "axios": "^1.5.1",
+    "body-parser": "^1.20.2",
+    "buffer": "^6.0.3",
+    "crypto": "^1.0.1",
+    "crypto-browserify": "^3.12.0",
+    "express": "^4.18.2",
+    "https-browserify": "^1.0.0",
+    "notistack": "^3.0.1",
+    "os-browserify": "^0.3.0",
+    "path": "^0.12.7",
+    "path-browserify": "^1.0.1",
+    "react": "^18.2.0",
+    "react-app-rewired": "^2.2.1",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.11.0",
+    "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^6.16.0",
+    "react-scripts": "^5.0.1",
+    "stream": "^0.0.2",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "url": "^0.11.3",
+    "web-vitals": "^2.1.4",
+    "web3": "^4.1.2",
+    "webpack": "^5.88.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
