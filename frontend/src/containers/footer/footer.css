@@ -1,0 +1,128 @@
+.woix__footer {
+    background-color: var(--color-footer);
+    color: #fff;
+    font-family: var(--font-family);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.woix__footer-heading {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 75px;
+
+    text-align: center;
+    letter-spacing: -0.04em;
+    margin-bottom: 3rem;
+}
+
+.woix__footer-button {
+    border: 1px solid #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+    padding: 1rem;
+    word-spacing: 3px;
+    cursor: pointer;
+}
+
+.woix__footer-button p {
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.woix__footer-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: left;
+}
+
+.woix__footer-links div {
+    width: 250px;
+    margin: 1rem;
+}
+
+.woix__footer-links_logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.woix__footer-links_logo img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 1rem;
+}
+
+.woix__footer-links_logo p {
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.woix__footer-links_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.woix__footer-links_div h4 {
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 1rem;
+}
+
+.woix__footer-links_div p {
+    font-size: 12px;
+    line-height: 14px;
+    margin: 1rem 0;
+    cursor: pointer;
+}
+
+.woix__footer-copyright {
+    margin-top: 2rem;
+    text-align: center;
+    width: 100%;
+}
+
+.woix__footer-copyrights p {
+    font-size: 12px;
+    font-family: var(--font-family);
+    line-height: 15px;
+    color: #fff;
+}
+
+@media screen and (max-width: 850px) {
+    .woix__footer-heading h1 {
+        font-size: 44px;
+        line-height: 50px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .woix__footer-heading h1 {
+        font-size: 34px;
+        line-height: 42px;
+    }
+
+    .woix__footer-links div {
+        margin: 1rem 0;
+    }
+
+    .woix__footer-btn p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .woix__footer-heading h1 {
+        font-size: 27px;
+        line-height: 38px;
+    }
+}
