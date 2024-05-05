@@ -11,6 +11,8 @@ import {
 const Footer = () => {
     return (
         <Box>
+            
+            <FooterContainer>
             <h1
                 style={{
                     color: "green",
@@ -20,8 +22,9 @@ const Footer = () => {
             >
                 Employee Performance Analysis!
             </h1>
-            <FooterContainer>
+            <br/><br/>
                 <Row>
+                    
                     <Column>
                         <Heading>About Us</Heading>
                         <FooterLink href="#">
