@@ -1,25 +1,19 @@
 import React,{useState} from 'react'
-import "../Groups/Group.css"
-import pic from '../../assets/ai1.png'
+import "../EmployeeForm/Employee.css"
+import pic from '../../assets/logo.png'
 import axios from 'axios'
 import { useNavigate } from 'react-router-dom'
 
 const Supervisor = () => {
     
-    const [GroupName , setGroupName] = useState('');
-    const [depId , setdepId] = useState('');
-    const [supervisorID , setsupervisorID] = useState('');
-    const [dateCreated , setdateCreated] = useState('');
-    const [status_id , setstatus_id] = useState('');
+
+    const [Employee_id , SetEmployee_id] = useState('');
     const [loading , setLoading] = useState(false);
     const navigate = useNavigate();
     const handleSaveMember = ()=>{
         const data = {
-            GroupName,
-            depId,
-            supervisorID,
-            status_id,
-            dateCreated
+           
+            Employee_id
         };
         
         setLoading(true);
@@ -31,7 +25,7 @@ const Supervisor = () => {
           })
           .catch((err)=>{
             setLoading(false);
-            alert("FILL THE FORM CORRECTLY (DONT REUSE THE depId) ")
+            alert("FILL THE FORM CORRECTLY "+err)
             console.log(err)
     
           })
@@ -44,7 +38,7 @@ const Supervisor = () => {
         <div class="image-container">
             <h1 class="company">EPE</h1>
             <img src={pic} class="illustration" alt=""/>
-            <p class="quote">Register to get exciting opportunities..!</p>
+            <p class="quote">WOW BECOME A SUPERVISOR</p>
             <a href="#btm" class="mobile-btm-nav">
                 <img src={pic} alt="" />
             </a>
@@ -61,8 +55,8 @@ const Supervisor = () => {
                 <div class="input-container">
                     <label for="phone">
                     </label>
-                    <input type="text" GroupName="phone" id="phone" required  value={status_id}
-                    onChange={(e) => setstatus_id(e.target.value)}/>
+                    <input type="text" GroupName="phone" id="phone" required  value={Employee_id}
+                    onChange={(e) => SetEmployee_id(e.target.value)}/>
                     <span>Employee ID</span>
                     <div class="error"></div>
                 </div>
