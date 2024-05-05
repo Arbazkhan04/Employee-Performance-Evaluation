@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Footer, Navbar } from './Components';
-import { Home } from './Pages';
+import { Employee, Home } from './Pages';
 
 function App() {
   return (
@@ -10,7 +10,8 @@ function App() {
       <Navbar/>
       <Routes>
       <Route path='/' element={<Home/>}/>  
-        
+      <Route path='/Employee' element={<Employee/>}/>  
+          
       </Routes>
       <Footer/>
     </Router>

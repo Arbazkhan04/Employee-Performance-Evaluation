@@ -6,7 +6,6 @@ const Home = () => {
 
 <section class="section spacer"></section>
             <section class="section">
-              
             <div class="box-main">
                 
                 <p class="text-small">
