@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import { Navbar } from './Components';
+import { Footer, Navbar } from './Components';
 
 function App() {
   return (
@@ -9,6 +9,7 @@ function App() {
       <Navbar/>
       <Routes>
       </Routes>
+      <Footer/>
     </Router>
   );
 }
