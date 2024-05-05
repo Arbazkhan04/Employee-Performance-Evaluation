@@ -20,10 +20,10 @@ const Employee = () => {
       ,department
       ,designation
         };
-        console.log(data);
+    console.log(data);
         setLoading(true);
         axios
-          .post("http://localhost:4000/api/employee/",data)
+          .post("http://localhost:4000/employee/",data)
           .then(()=>{
             setLoading(false);
             console.log("DONE")
@@ -31,7 +31,7 @@ const Employee = () => {
           })
           .catch((err)=>{
             setLoading(false);
-            alert("FILL THE FORM CORRECTLY (DONT REUSE THE EMAIL) ")
+            alert("FILL THE FORM CORRECTLY " + err)
             console.log(err)
     
           })

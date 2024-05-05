@@ -14,7 +14,7 @@ app.use('/group', require('./routes/groupRoutes.js'))
 app.use('/evaluation', require('./routes/evalRoutes.js'))
 
 
-const port = process.env.PORT || 3000
+const port = process.env.PORT || 4000
 
 const start = async () => {
     try {
