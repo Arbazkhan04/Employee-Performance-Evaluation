@@ -5,7 +5,7 @@ const changeDb = require('../middlewares/switchDb.js')
 
 const router = express.Router()
 
-router.route('/employee').get(changeDb, getEvaluations).post(evaluateEmployee)
+router.route('/employee').get(getEvaluations).post(evaluateEmployee)
 router.route('/group').post(evaluateGroup)
 
 connect()

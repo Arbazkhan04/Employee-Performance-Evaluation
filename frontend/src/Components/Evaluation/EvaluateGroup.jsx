@@ -15,16 +15,15 @@ const EvaluationGroup = () => {
     const navigate = useNavigate();
     const handleSaveMember = ()=>{
         const data = {
-            Remarks,
             metric_id,
-            Group_id,
+            group_id:Group_id,
             rating,
-            DateOfEvaluation
+            remarks:Remarks
         };
         
         setLoading(true);
         axios
-          .post("http://localhost:4000/api/v1/candidate/register",data)
+          .post("http://localhost:3000/evaluation/group",data)
           .then(()=>{
             setLoading(false);
             navigate('/');
