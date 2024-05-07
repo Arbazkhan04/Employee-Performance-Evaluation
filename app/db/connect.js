@@ -1,7 +1,7 @@
 const sql = require("mssql/msnodesqlv8")
 
 var config = {
-  connectionString: 'Driver=SQL Server;Server=DESKTOP-55MSIKV\\SQLEXPRESS;Database=EPE_New;Trusted_Connection=true;'
+  connectionString: 'Driver=SQL Server;Server=DESKTOP-4UIPFLP;Database=EPE;Trusted_Connection=true;'
 };
 
 const connect = async () => {
