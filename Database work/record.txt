@@ -1,0 +1,7 @@
+--Employees--
+1 to 100 of it dept with 10 to 15 Designation_id
+101 to 200 it dept 5 Designation_id
+201 t0 300 marketing and sales depts 6 and 7 Designation_id
+301 to 350 hr dept 8 Designation_id
+351 to 400 finance dept 9 Designation_id
+401 to 500 it dept 5 Designation_id
