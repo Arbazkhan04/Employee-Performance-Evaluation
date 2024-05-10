@@ -1,0 +1,14 @@
+G:\sql_with_dotnetFremwork\EPE\EPE\bin\Debug\EPE.exe.config
+G:\sql_with_dotnetFremwork\EPE\EPE\bin\Debug\EPE.exe
+G:\sql_with_dotnetFremwork\EPE\EPE\bin\Debug\EPE.pdb
+G:\sql_with_dotnetFremwork\EPE\EPE\bin\Debug\MaterialSkin.dll
+G:\sql_with_dotnetFremwork\EPE\EPE\obj\Debug\EPE.csproj.AssemblyReference.cache
+G:\sql_with_dotnetFremwork\EPE\EPE\obj\Debug\EPE.Form1.resources
+G:\sql_with_dotnetFremwork\EPE\EPE\obj\Debug\EPE.Properties.Resources.resources
+G:\sql_with_dotnetFremwork\EPE\EPE\obj\Debug\EPE.csproj.GenerateResource.cache
+G:\sql_with_dotnetFremwork\EPE\EPE\obj\Debug\EPE.csproj.CoreCompileInputs.cache
+G:\sql_with_dotnetFremwork\EPE\EPE\obj\Debug\EPE.csproj.CopyComplete
+G:\sql_with_dotnetFremwork\EPE\EPE\obj\Debug\EPE.exe
+G:\sql_with_dotnetFremwork\EPE\EPE\obj\Debug\EPE.pdb
+G:\sql_with_dotnetFremwork\EPE\EPE\obj\Debug\EPE.EmployeeDashboard.resources
+G:\sql_with_dotnetFremwork\EPE\EPE\obj\Debug\EPE.HrDashboardForm.resources
