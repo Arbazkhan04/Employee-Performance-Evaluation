@@ -21,8 +21,9 @@ The Employee Performance Evaluation System is a comprehensive solution designed 
 ## Tech Stack
 
 - **Database**: SQL Server
-- **Backend**: Python, SSIS
-- **Frontend**: MERN stack (MongoDB, Express.js, React.js, Node.js)
+- **ETL**: SSIS
+- **Backend**: Node | Express
+- **Frontend**: React 
 - **Analytics**: Power BI
 - **Data Cleaning**: pandas (Python library)
 
